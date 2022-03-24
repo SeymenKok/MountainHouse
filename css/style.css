@@ -78,7 +78,7 @@ img{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   color: #3f7bfe;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  border-bottom: 2px solid #0d1b4d;
   border-radius: 10px;
 }
 /* Slider */
@@ -126,18 +126,12 @@ align-items: center;
 text-align: center;
 padding: 10px;
 margin: 10px 10px;
-background: rgba(255, 255, 255, 0.04);
-border-radius: 5px;
+background: rgba(255, 255, 255, 0.39);
+border-radius: 15px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.6px);
--webkit-backdrop-filter: blur(3.6px);
-border: 1px solid rgba(255, 255, 255, 0.51);
-background: rgba(255, 255, 255, 0.04);
-border-radius: 5px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.6px);
--webkit-backdrop-filter: blur(3.6px);
-border: 1px solid rgba(255, 255, 255, 0.51);
+backdrop-filter: blur(6.4px);
+-webkit-backdrop-filter: blur(6.4px);
+border: 1px solid rgba(255, 255, 255, 0.45);
 }
 .card-container {
   padding: 5px;
